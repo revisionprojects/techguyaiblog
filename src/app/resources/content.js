@@ -6,7 +6,7 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Senior Project Manager (PMP_',
+    role:      'Senior Project Manager (PMP)',
     avatar:    '/images/avatar.jpg',
     location:  'America/Toronto',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English']  // optional: Leave the array empty if you don't want to display languages
@@ -15,7 +15,7 @@ const person = {
 const newsletter = {
     display: true,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    description: <>Results-Driven Project Manager | Expert in Leading Cross-Functional Teams | 15 Years of Proven Success in Delivering Complex Projects On Time and Within Budget</>
 }
 
 const social = [
@@ -29,7 +29,7 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/matt-robinson-pm/',
     },
     {
         name: 'X',
@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    subline: <>I'm Matt Robinson <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
 }
 
 const about = {
@@ -69,14 +69,14 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Matt is a project manager with a passion for AI technology and advancing the human race </>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
+                company: 'Company',
                 timeframe: '2022 - Present',
                 role: 'Senior Design Engineer',
                 achievements: [
