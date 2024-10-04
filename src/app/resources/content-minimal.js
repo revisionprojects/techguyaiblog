@@ -2,8 +2,8 @@ import { InlineCode } from "@/once-ui/components";
 import Link from 'next/link'
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Matt',
+    lastName:  'Robinson',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
